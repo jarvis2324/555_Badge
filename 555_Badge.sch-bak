@@ -1,0 +1,431 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "555 Badge"
+Date "2019-12-18"
+Rev "v01"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L New_Library:7555 U?
+U 1 1 5DF956A0
+P 5500 3450
+F 0 "U?" H 5994 3546 50  0000 L CNN
+F 1 "7555" H 5994 3455 50  0000 L CNN
+F 2 "" H 5550 3950 50  0001 C CNN
+F 3 "" H 5550 3950 50  0001 C CNN
+	1    5500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DF9677D
+P 4200 3000
+F 0 "R?" H 4270 3046 50  0000 L CNN
+F 1 "22K" H 4270 2955 50  0000 L CNN
+F 2 "" V 4130 3000 50  0001 C CNN
+F 3 "~" H 4200 3000 50  0001 C CNN
+	1    4200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DF97313
+P 4200 3900
+F 0 "R?" H 4270 3946 50  0000 L CNN
+F 1 "330" H 4270 3855 50  0000 L CNN
+F 2 "" V 4130 3900 50  0001 C CNN
+F 3 "~" H 4200 3900 50  0001 C CNN
+	1    4200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DF97A64
+P 6600 3450
+F 0 "R?" V 6393 3450 50  0000 C CNN
+F 1 "22k" V 6484 3450 50  0000 C CNN
+F 2 "" V 6530 3450 50  0001 C CNN
+F 3 "~" H 6600 3450 50  0001 C CNN
+	1    6600 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DF983D0
+P 6150 4250
+F 0 "R?" H 6220 4296 50  0000 L CNN
+F 1 "100k" H 6220 4205 50  0000 L CNN
+F 2 "" V 6080 4250 50  0001 C CNN
+F 3 "~" H 6150 4250 50  0001 C CNN
+	1    6150 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DF98908
+P 7550 3650
+F 0 "R?" V 7343 3650 50  0000 C CNN
+F 1 "10k" V 7434 3650 50  0000 C CNN
+F 2 "" V 7480 3650 50  0001 C CNN
+F 3 "~" H 7550 3650 50  0001 C CNN
+	1    7550 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DF98D56
+P 7650 2200
+F 0 "R?" H 7720 2246 50  0000 L CNN
+F 1 "100" H 7720 2155 50  0000 L CNN
+F 2 "" V 7580 2200 50  0001 C CNN
+F 3 "~" H 7650 2200 50  0001 C CNN
+	1    7650 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DF9952D
+P 8200 2200
+F 0 "R?" H 8270 2246 50  0000 L CNN
+F 1 "100" H 8270 2155 50  0000 L CNN
+F 2 "" V 8130 2200 50  0001 C CNN
+F 3 "~" H 8200 2200 50  0001 C CNN
+	1    8200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5DF9A275
+P 4150 4700
+F 0 "C?" H 4265 4746 50  0000 L CNN
+F 1 "10uf" H 4265 4655 50  0000 L CNN
+F 2 "" H 4150 4700 50  0001 C CNN
+F 3 "~" H 4150 4700 50  0001 C CNN
+	1    4150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5DF9B1B3
+P 6650 4250
+F 0 "C?" H 6765 4296 50  0000 L CNN
+F 1 "100uf" H 6765 4205 50  0000 L CNN
+F 2 "" H 6650 4250 50  0001 C CNN
+F 3 "~" H 6650 4250 50  0001 C CNN
+	1    6650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DF9D19F
+P 7650 2700
+F 0 "D?" V 7689 2582 50  0000 R CNN
+F 1 "RED" V 7598 2582 50  0000 R CNN
+F 2 "" H 7650 2700 50  0001 C CNN
+F 3 "~" H 7650 2700 50  0001 C CNN
+	1    7650 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DF9EC66
+P 8200 2700
+F 0 "D?" V 8239 2582 50  0000 R CNN
+F 1 "RED" V 8148 2582 50  0000 R CNN
+F 2 "" H 8200 2700 50  0001 C CNN
+F 3 "~" H 8200 2700 50  0001 C CNN
+	1    8200 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q?
+U 1 1 5DF9F13C
+P 8300 3650
+F 0 "Q?" H 8490 3696 50  0000 L CNN
+F 1 "2N3904" H 8490 3605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8500 3575 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 8300 3650 50  0001 L CNN
+	1    8300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Battery-Holders-Clips-Contacts:BS-7 BAT?
+U 1 1 5DFA0CF9
+P 2900 3950
+F 0 "BAT?" H 3028 4003 60  0000 L CNN
+F 1 "BS-7" H 3028 3897 60  0000 L CNN
+F 2 "digikey-footprints:Battery_Holder_Coin_2032_BS-7" H 3100 4150 60  0001 L CNN
+F 3 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" V 3100 4250 60  0001 L CNN
+F 4 "BS-7-ND" H 3100 4350 60  0001 L CNN "Digi-Key_PN"
+F 5 "BS-7" H 3100 4450 60  0001 L CNN "MPN"
+F 6 "Battery Products" H 3100 4550 60  0001 L CNN "Category"
+F 7 "Battery Holders, Clips, Contacts" H 3100 4650 60  0001 L CNN "Family"
+F 8 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" H 3100 4750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/mpd-memory-protection-devices/BS-7/BS-7-ND/389447" H 3100 4850 60  0001 L CNN "DK_Detail_Page"
+F 10 "BATTERY HOLDER COIN 20MM PC PIN" H 3100 4950 60  0001 L CNN "Description"
+F 11 "MPD (Memory Protection Devices)" H 3100 5050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3100 5150 60  0001 L CNN "Status"
+	1    2900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Slide-Switches:EG1218 S?
+U 1 1 5DFA3104
+P 2700 3400
+F 0 "S?" H 2700 3681 50  0000 C CNN
+F 1 "EG1218" H 2700 3590 50  0000 C CNN
+F 2 "digikey-footprints:Switch_Slide_11.6x4mm_EG1218" H 2900 3600 50  0001 L CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 2900 3700 60  0001 L CNN
+F 4 "EG1903-ND" H 2900 3800 60  0001 L CNN "Digi-Key_PN"
+F 5 "EG1218" H 2900 3900 60  0001 L CNN "MPN"
+F 6 "Switches" H 2900 4000 60  0001 L CNN "Category"
+F 7 "Slide Switches" H 2900 4100 60  0001 L CNN "Family"
+F 8 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 2900 4200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/e-switch/EG1218/EG1903-ND/101726" H 2900 4300 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH SLIDE SPDT 200MA 30V" H 2900 4400 60  0001 L CNN "Description"
+F 11 "E-Switch" H 2900 4500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2900 4600 60  0001 L CNN "Status"
+	1    2700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DFA435C
+P 4150 5200
+F 0 "#PWR?" H 4150 4950 50  0001 C CNN
+F 1 "GND" H 4155 5027 50  0000 C CNN
+F 2 "" H 4150 5200 50  0001 C CNN
+F 3 "" H 4150 5200 50  0001 C CNN
+	1    4150 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DFA56F4
+P 5400 5200
+F 0 "#PWR?" H 5400 4950 50  0001 C CNN
+F 1 "GND" H 5405 5027 50  0000 C CNN
+F 2 "" H 5400 5200 50  0001 C CNN
+F 3 "" H 5400 5200 50  0001 C CNN
+	1    5400 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DFA62BF
+P 6150 5200
+F 0 "#PWR?" H 6150 4950 50  0001 C CNN
+F 1 "GND" H 6155 5027 50  0000 C CNN
+F 2 "" H 6150 5200 50  0001 C CNN
+F 3 "" H 6150 5200 50  0001 C CNN
+	1    6150 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DFA6870
+P 6650 5200
+F 0 "#PWR?" H 6650 4950 50  0001 C CNN
+F 1 "GND" H 6655 5027 50  0000 C CNN
+F 2 "" H 6650 5200 50  0001 C CNN
+F 3 "" H 6650 5200 50  0001 C CNN
+	1    6650 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DFA6CAF
+P 2150 3400
+F 0 "#PWR?" H 2150 3250 50  0001 C CNN
+F 1 "VCC" V 2168 3527 50  0000 L CNN
+F 2 "" H 2150 3400 50  0001 C CNN
+F 3 "" H 2150 3400 50  0001 C CNN
+	1    2150 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DFA76CD
+P 7550 1900
+F 0 "#PWR?" H 7550 1750 50  0001 C CNN
+F 1 "VCC" H 7567 2073 50  0000 C CNN
+F 2 "" H 7550 1900 50  0001 C CNN
+F 3 "" H 7550 1900 50  0001 C CNN
+	1    7550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DFA7FE5
+P 8200 1900
+F 0 "#PWR?" H 8200 1750 50  0001 C CNN
+F 1 "VCC" H 8217 2073 50  0000 C CNN
+F 2 "" H 8200 1900 50  0001 C CNN
+F 3 "" H 8200 1900 50  0001 C CNN
+	1    8200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DFA828D
+P 5300 2600
+F 0 "#PWR?" H 5300 2450 50  0001 C CNN
+F 1 "VCC" H 5317 2773 50  0000 C CNN
+F 2 "" H 5300 2600 50  0001 C CNN
+F 3 "" H 5300 2600 50  0001 C CNN
+	1    5300 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DFA8630
+P 4200 2550
+F 0 "#PWR?" H 4200 2400 50  0001 C CNN
+F 1 "VCC" H 4217 2723 50  0000 C CNN
+F 2 "" H 4200 2550 50  0001 C CNN
+F 3 "" H 4200 2550 50  0001 C CNN
+	1    4200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DFA8878
+P 2900 4700
+F 0 "#PWR?" H 2900 4450 50  0001 C CNN
+F 1 "GND" H 2905 4527 50  0000 C CNN
+F 2 "" H 2900 4700 50  0001 C CNN
+F 3 "" H 2900 4700 50  0001 C CNN
+	1    2900 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4150 2900 4700
+Wire Wire Line
+	2900 3750 2900 3500
+Wire Wire Line
+	2150 3400 2500 3400
+Wire Wire Line
+	4200 2550 4200 2850
+Wire Wire Line
+	4200 3150 4200 3450
+Wire Wire Line
+	4200 4050 4200 4200
+Wire Wire Line
+	4200 4550 4150 4550
+Wire Wire Line
+	5000 3450 4200 3450
+Connection ~ 4200 3450
+Wire Wire Line
+	4200 3450 4200 3750
+Wire Wire Line
+	5000 3350 4650 3350
+Wire Wire Line
+	4650 3350 4650 3850
+Wire Wire Line
+	4650 4200 4200 4200
+Connection ~ 4200 4200
+Wire Wire Line
+	4200 4200 4200 4550
+Wire Wire Line
+	5000 3550 5000 3850
+Wire Wire Line
+	5000 3850 4650 3850
+Connection ~ 4650 3850
+Wire Wire Line
+	4650 3850 4650 4200
+Wire Wire Line
+	5300 2500 5300 2600
+Wire Wire Line
+	5300 2950 5450 2950
+Connection ~ 5300 2600
+Wire Wire Line
+	5300 2600 5300 2800
+Wire Wire Line
+	5300 2800 5550 2800
+Wire Wire Line
+	5550 2800 5550 2950
+Connection ~ 5300 2800
+Wire Wire Line
+	5300 2800 5300 2950
+Wire Wire Line
+	5450 3850 5450 5200
+Wire Wire Line
+	5450 5200 5400 5200
+Wire Wire Line
+	5950 3450 6450 3450
+Wire Wire Line
+	7400 3450 7400 3650
+Wire Wire Line
+	6750 3450 6800 3450
+Wire Wire Line
+	6150 4100 6150 3750
+Wire Wire Line
+	6150 3750 6800 3750
+Wire Wire Line
+	6800 3750 6800 3450
+Connection ~ 6800 3450
+Wire Wire Line
+	6800 3450 7000 3450
+Wire Wire Line
+	6650 4100 6650 4000
+Wire Wire Line
+	6650 4000 7000 4000
+Wire Wire Line
+	7000 4000 7000 3450
+Connection ~ 7000 3450
+Wire Wire Line
+	7000 3450 7400 3450
+Wire Wire Line
+	6650 4400 6650 5200
+Wire Wire Line
+	6150 4400 6150 5200
+Wire Wire Line
+	7700 3650 8100 3650
+Wire Wire Line
+	7550 1900 7650 1900
+Wire Wire Line
+	7650 1900 7650 2050
+Wire Wire Line
+	7650 2350 7650 2550
+Wire Wire Line
+	7650 2850 7650 3300
+Wire Wire Line
+	7650 3300 8200 3300
+Wire Wire Line
+	8400 3300 8400 3450
+Wire Wire Line
+	8200 2850 8200 3300
+Connection ~ 8200 3300
+Wire Wire Line
+	8200 3300 8400 3300
+Wire Wire Line
+	8200 1900 8200 2050
+Wire Wire Line
+	8200 2350 8200 2550
+Wire Wire Line
+	8550 3650 8400 3650
+Wire Wire Line
+	8400 3650 8400 3850
+$Comp
+L power:GND #PWR?
+U 1 1 5DFB53E1
+P 8400 5100
+F 0 "#PWR?" H 8400 4850 50  0001 C CNN
+F 1 "GND" H 8405 4927 50  0000 C CNN
+F 2 "" H 8400 5100 50  0001 C CNN
+F 3 "" H 8400 5100 50  0001 C CNN
+	1    8400 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 3850 8400 5100
+Connection ~ 8400 3850
+$EndSCHEMATC
